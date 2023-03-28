@@ -59,7 +59,7 @@ label:nth-child(1),
 .slider input:nth-child(2):checked~.slides
 label:nth-child(2){
     opacity: 1;
-    width: 50px;
+    width: 10px;
 }
 
 .content{
@@ -111,7 +111,21 @@ label:nth-child(2){
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     opacity: 0.8;
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+.buttons button:hover{
+    opacity: 1;
+    width: 155px;
+    height: 55px;
+}
+
+.buttons button a{
+    color: white;
+    text-decoration: none;
+}
+
 
 .buttons .skip{
     background-color: rgb(49, 5, 90);
